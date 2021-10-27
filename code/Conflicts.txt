@@ -1,0 +1,2 @@
+Pie chart is only avaliable for analysis type 4 and 5 (Average Forest area (% of land area) and Average of Government expenditure on education, total (% of GDP))
+Analysis type 5 and 8 (Average of Government expenditure on education, total (% of GDP) and Ratio of Government expenditure on education, total (% of GDP) vs Current health expenditure (% of GDP)) is not avaliable for China

@@ -11,11 +11,11 @@ Write a recursive function/procedure to compute F(n) with time complexity O(log(
 ## Assignment2:
 ### Disjointset.java
 A Disjoint-Set data structure should be implemented, with the most efficient algorithm (union by rank and path compression), as an abstract data type (a class in C++ or java) with the following operations.
-###### **uandf(n)**: constructs an disjoint-set data type with n elements, 1, 2, . . . , n.
-###### **make_set(i)**: creates a new set whose only member (and thus representative) is i.
-###### **union_sets(i, j)**: unites the dynamic sets that contains i and j, respectively, into a new set that is the union of these two sets.
-###### **find_set(i)**: returns the representative of the set containing i.
-###### **final_sets()**: returns the total number of current sets and finalizes the current sets:(i) make set() and union sets() will have no effect after this operation and (ii) resets the representatives
+#### **uandf(n)**: constructs an disjoint-set data type with n elements, 1, 2, . . . , n.
+#### **make_set(i)**: creates a new set whose only member (and thus representative) is i.
+#### **union_sets(i, j)**: unites the dynamic sets that contains i and j, respectively, into a new set that is the union of these two sets.
+#### **find_set(i)**: returns the representative of the set containing i.
+#### **final_sets()**: returns the total number of current sets and finalizes the current sets:(i) make set() and union sets() will have no effect after this operation and (ii) resets the representatives
 ### question10.java
 Design and implement (write a program) an algorithm to find the connected components in a binary image using Disjoint-Set data structure in a).An ASCII file containing a binary image is available (see girl.img and img readme) as the input of your program. The output of the program should be thefollowing in this specified order:
 1. the input binary image,

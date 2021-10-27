@@ -22,3 +22,16 @@ Design and implement (write a program) an algorithm to find the connected compon
 2. the connected component image where each component is labelled with a unique character,
 3. a list sorted by component size, where each line of the list contains the size and the label of a component,
 4. same as 2 with the connected components whose sizes are less than three deleted.
+
+## Assignment3:
+### Dijkstra.java
+Implement the Dijkstra’s single source shortest path algorithm for a weighted directed graph using a heap data structure. The time complexity of the algorithm should be **O((|V |+ |E|) log |V |)**
+A heap data structure for priority queue  should be implemented as an abstract data type (a class in C++, Java, or Python)on a set of elements, where each element has an id and a key, with the following operations.
+• heap(keys, n): initializes a heap with the array keys of n elements.
+• in heap(id): returns true if the element whose id is id is in the heap;
+• min key(): returns the minimum key of the heap;
+• min id(): returns the id of the element with minimum key in the heap;
+• key(id): returns the key of the element whose id is id in the heap;
+• delete min(): deletes the element with minimum key from the heap;
+• decrease key(id, new key): sets the key of the element whose id is id to new key if its
+current key is greater than new key.

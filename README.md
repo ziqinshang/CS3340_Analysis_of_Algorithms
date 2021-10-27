@@ -36,8 +36,8 @@ A heap data structure for priority queue  should be implemented as an abstract d
 ##### decrease key(id, new key): sets the key of the element whose id is id to new key if its current key is greater than new key.
 An input graph file will be available. The format of the input file is the following:
 1. The first line of the input file contains an integer, n, indicating the number of vertices of the input graph.
-2.Each of the remaining lines contains a triple “i j w”, where 1 ≤ i, j ≤ n, indicating an edge from vertex i to vertex j with weight w.
+2. Each of the remaining lines contains a triple “i j w”, where 1 ≤ i, j ≤ n, indicating an edge from vertex i to vertex j with weight w.
 ##### Vertex 1 is considered as the source.
 ##### The output of your program should be the following:
-1.The input graph in adjacency list representation: Print the adjacency lists in any reasonable format. Print each edge with its weight.
-2.The shortest path tree edges with shortest path weights: The edges should be listed in the order in which they are produced by the Dijkastra’s algorithm. For each shortest path tree edge (i, j), print “(i, j) : w” in a separate line, where w is the shortest path weight from the source to vertex j.
+1. The input graph in adjacency list representation: Print the adjacency lists in any reasonable format. Print each edge with its weight.
+2. The shortest path tree edges with shortest path weights: The edges should be listed in the order in which they are produced by the Dijkastra’s algorithm. For each shortest path tree edge (i, j), print “(i, j) : w” in a separate line, where w is the shortest path weight from the source to vertex j.

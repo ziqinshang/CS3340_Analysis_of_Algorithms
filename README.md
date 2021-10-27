@@ -1,7 +1,7 @@
 # CS3340_Analysis_of_Algorithms
-Assignment1:
-F(n) = F(n − 1) + F(n − 2), n > 1; F(1) = 1; F(0) = 0
-asn1_a.cpp:
+## Assignment1:
+# F(n) = F(n − 1) + F(n − 2), n > 1; F(1) = 1; F(0) = 0
+# asn1_a.cpp:
 Write a recursive function to compute F(n) using the above definition directly. Implement your solution and print F(i ∗ 5), where 0 ≤ i ≤ 10, as output.
 asn1_b.cpp:
 Write a recursive function/procedure to compute F(n) with time complexity O(n) (more precisely, the time complexity should be O(nA(n)) when n is large, where A(n) is the complexity of adding F(n−1) and F(n−2)). Implement your solution and print F(i∗20), where 0 ≤ i ≤ 25, as output. This program must be able to compute F(n) precisely for n ≤ 500.

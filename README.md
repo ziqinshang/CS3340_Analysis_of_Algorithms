@@ -1,14 +1,14 @@
 # CS3340_Analysis_of_Algorithms
 ## Assignment1:
-# F(n) = F(n − 1) + F(n − 2), n > 1; F(1) = 1; F(0) = 0
-# asn1_a.cpp:
+### F(n) = F(n − 1) + F(n − 2), n > 1; F(1) = 1; F(0) = 0
+### asn1_a.cpp:
 Write a recursive function to compute F(n) using the above definition directly. Implement your solution and print F(i ∗ 5), where 0 ≤ i ≤ 10, as output.
-asn1_b.cpp:
+### asn1_b.cpp:
 Write a recursive function/procedure to compute F(n) with time complexity O(n) (more precisely, the time complexity should be O(nA(n)) when n is large, where A(n) is the complexity of adding F(n−1) and F(n−2)). Implement your solution and print F(i∗20), where 0 ≤ i ≤ 25, as output. This program must be able to compute F(n) precisely for n ≤ 500.
-asn1_c.cpp:
+### asn1_c.cpp:
 Write a recursive function/procedure to compute F(n) with time complexity O(log(n)) (more precisely, the time complexity should be O(log(n)A(n)) when n is large, where A(n) is the complexity of adding or multiplying F(i) and F(j)).
 
-Assignment2:
+## Assignment2:
 
 A Disjoint-Set data structure should be implemented, with the most efficient algorithm (union by rank and path compression), as an abstract data type (a class in C++ or java) with the following operations.
 uandf(n): constructs an disjoint-set data type with n elements, 1, 2, . . . , n.
